@@ -25,6 +25,6 @@ function removeLastDriver(){
   return coll
 }
 function removeFirstDriver(){
-  const coll = drivers.slice()
+  const coll = drivers.slice(1)
   return coll
 }
