@@ -20,3 +20,10 @@ function prependDriver(name){
   const coll = [name, ...drivers]
   return coll
 }
+function removeLastDriver(){
+  
+}
+function removeFirstDriver(){
+  const coll = drivers.slice()
+  return coll
+}
